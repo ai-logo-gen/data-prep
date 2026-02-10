@@ -1,4 +1,4 @@
-# Data Preparation for "Curated Logo Dataset for Generative AI"
+# Data Preparation for "Minimalistic Logos (Image, Sketch, Prompt)"
 
 This repository contains all the scripts used for the data preparation of the [Minimalistic Logos (Image, Sketch, Prompt)](https://www.kaggle.com/datasets/paulhornig/minimalistic-logos-sketches-and-prompts) dataset on Kaggle. The original data is based on the [Amazing Logos v4](https://huggingface.co/datasets/iamkaikai/amazing_logos_v4) dataset from Hugging Face.
 
