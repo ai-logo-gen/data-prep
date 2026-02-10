@@ -1,18 +1,20 @@
-# Konditionierte KI-Generierung minimalistischer Logos
+# Data Preparation for "Curated Logo Dataset for Generative AI"
 
-Dieses Repository dient als Anhang zur Masterarbeit mit dem Titel "Konditionierte KI-Generierung minimalistischer Logos: Konzeption, Auswahl und Evaluation eines Modellprototyps".
+This repository contains all the scripts used for the data preparation of the [Minimalistic Logos (Image, Sketch, Prompt)](https://www.kaggle.com/datasets/paulhornig/minimalistic-logos-sketches-and-prompts) dataset on Kaggle. The original data is based on the [Amazing Logos v4](https://huggingface.co/datasets/iamkaikai/amazing_logos_v4) dataset from Hugging Face.
 
-## Projektstruktur
+This work was originally part of a master's thesis titled "Konditionierte KI-Generierung minimalistischer Logos: Konzeption, Auswahl und Evaluation eines Modellprototyps".
 
-- **`/pipelines`**: Enthält die Hauptskripte zur Datenvorverarbeitung.
-- **`/utils`**: Beinhaltet Hilfsfunktionen, die von den Pipelines verwendet werden, z.B. für Bildverarbeitung und Textnormalisierung.
-- **`/input`**: Verzeichnis für die Eingabedaten.
-- **`/output`**: Hier werden die verarbeiteten Daten und generierten Bilder gespeichert.
-- **`/doc`**: Dokumentation der einzelnen Schritte des Prozesses.
+## Project Structure
 
-## Abhängigkeiten
+- **`/pipelines`**: Contains the main scripts for data preprocessing.
+- **`/utils`**: Includes helper functions used by the pipelines, e.g., for image processing and text normalization.
+- **`/input`**: Directory for the input data.
+- **`/output`**: This is where the processed data and generated images are saved.
+- **`/doc`**: Documentation of the individual steps of the process.
 
-Das Projekt wurde mit Python 3.11 entwickelt. Die wichtigsten Pakete sind:
+## Dependencies
+
+The project was developed with Python 3.11. The main packages are:
 
 - `pandas`
 - `papermill`
