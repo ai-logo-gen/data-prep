@@ -1,0 +1,124 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "amazing_logos_v4",
+  "dataset_size": 14441061344,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00000-of-00014-8fa0be170a1cb1f2.parquet": {
+      "num_bytes": 795406803,
+      "checksum": null
+    },
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00001-of-00014-37a1302a48bbd86d.parquet": {
+      "num_bytes": 1043946696,
+      "checksum": null
+    },
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00002-of-00014-2a126a6df42736cb.parquet": {
+      "num_bytes": 1036932674,
+      "checksum": null
+    },
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00003-of-00014-8d6bea2f0d5bd27d.parquet": {
+      "num_bytes": 1032545655,
+      "checksum": null
+    },
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00004-of-00014-218e3e1fc5250b20.parquet": {
+      "num_bytes": 1039072453,
+      "checksum": null
+    },
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00005-of-00014-966998870845f350.parquet": {
+      "num_bytes": 1039034478,
+      "checksum": null
+    },
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00006-of-00014-4248ed2e48521f4d.parquet": {
+      "num_bytes": 1023317465,
+      "checksum": null
+    },
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00007-of-00014-22c6e1808f69eda9.parquet": {
+      "num_bytes": 1028102342,
+      "checksum": null
+    },
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00008-of-00014-e1df3f6f9eb08fc5.parquet": {
+      "num_bytes": 1030528676,
+      "checksum": null
+    },
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00009-of-00014-7b271b93a008ccc3.parquet": {
+      "num_bytes": 1034501206,
+      "checksum": null
+    },
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00010-of-00014-a08c4775a1a9c068.parquet": {
+      "num_bytes": 1038960981,
+      "checksum": null
+    },
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00011-of-00014-dee0a4db1e06bd69.parquet": {
+      "num_bytes": 1033542331,
+      "checksum": null
+    },
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00012-of-00014-00457bc96a8beb8c.parquet": {
+      "num_bytes": 1033464343,
+      "checksum": null
+    },
+    "hf://datasets/iamkaikai/amazing_logos_v4@2a747926650fa6b493d1584e112dc6508c3109db/data/train-00013-of-00014-e2a2aefd0807aab0.parquet": {
+      "num_bytes": 1031050212,
+      "checksum": null
+    }
+  },
+  "download_size": 14240406315,
+  "features": {
+    "image": {
+      "_type": "Image"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 28681467659,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 14441061344,
+      "num_examples": 397251,
+      "shard_lengths": [
+        19100,
+        13476,
+        13500,
+        13575,
+        13600,
+        13575,
+        13600,
+        13675,
+        13600,
+        13500,
+        13475,
+        13600,
+        13775,
+        13800,
+        13575,
+        13700,
+        13875,
+        13600,
+        13575,
+        13700,
+        13475,
+        13600,
+        13475,
+        13600,
+        13675,
+        13600,
+        13875,
+        13600,
+        10475
+      ],
+      "dataset_name": "amazing_logos_v4"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
